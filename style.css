@@ -1,0 +1,149 @@
+body {
+    color: #e44d26;
+}
+.header, .footer {
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+}
+
+.header .logo img,
+.imagen-principal img {
+    width: 100%;
+    height: auto;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+/*para que no aparezcan los puntos de link*/
+    margin-right: 50px;
+    align-items: center;
+}
+
+.nav ul li {
+    margin-left: 15px;
+}
+.imagen-principal, .texto-somos {
+    width: 80%;
+    max-width: 800px;
+/*si la pantalla es muy grande, la imagen se estira SÓLO hasta 800px*/
+    margin-left: auto;
+    margin-right: auto;
+/*margin left y right auto, es igual a justify content center*/
+}
+.imagen-principal {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.que-somos {
+    background-color: #F1F1F1;
+    display: flex;
+    height: 20%;
+    margin-bottom: 30px;
+}
+.logo-somos img, .logos-sociales img, .redes img {
+width: 50px;
+height: 50px;
+}
+.logo-somos, .logos-sociales {
+    margin: auto;
+}
+.texto-somos p {
+    color: #000;
+}
+.texto-somos {
+    max-width: 800px;
+    padding-left: 40px;
+}
+.nosotras, .persona {
+    display: flex;
+    justify-content: space-evenly;
+}
+.persona {
+    width: 33%;
+    text-align: center;
+    align-items: center;
+}
+.nosotras {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 30px;
+}
+.redes img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.redes {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.contacto img {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.avatar img {
+    height: 200px;
+    width: 200px;
+}
+.nombre-persona {
+    font-weight: bold;
+}
+.descripcion-persona2 {
+    color: #000;
+    font-size: 0.9em;
+}
+.nombre-persona2 {
+    font-size: 1.3em;
+}
+.nombre-puesto2 {
+    font-size: 1.1em;
+}
+.avatar2 img {
+    width: 150px;
+    height: 150px;
+    padding-right: 25px;
+}
+.titulo {
+    text-align: center;
+}
+.persona2 {
+    display: flex;
+    width: 40%;
+}
+.persona2 p {
+    text-align: justify;
+}
+.nosotras2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .imagen-principal {
+        width: 100%;
+    }
+    .nav {
+        display: none;
+    }
+    .texto-somos {
+        padding: 10px;
+    }
+}

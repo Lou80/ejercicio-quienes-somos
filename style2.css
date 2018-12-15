@@ -1,0 +1,65 @@
+body {
+    color: #e44d26;
+}
+.header, .footer {
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+}
+
+.header .logo img {
+    width: 100%;
+    height: auto;
+}
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+/*para que no aparezcan los puntos de link*/
+    margin-right: 50px;
+    align-items: center;
+}
+.nav ul li {
+    margin-left: 15px;
+}
+.nosotras, .persona {
+    display: flex;
+    justify-content: space-evenly;
+}
+.persona {
+    width: 33%;
+    text-align: center;
+    align-items: center;
+}
+.nosotras {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 30px;
+    color: #000;
+}
+.nosotras, .persona {
+    display: flex;
+    justify-content: space-evenly;
+}
+.persona {
+    width: 33%;
+    text-align: center;
+    align-items: center;
+}
+.nosotras {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 30px;
+}
+.nombre-persona {
+    font-size: 1.3em;
+}
